@@ -30,7 +30,7 @@ const BarChart = () => {
   return (
     <div>
         <div style={{width:'40%', marginLeft:'10px'}}>
-        <h1 style={{textAlign:'center',color:''}}>Organization Performance</h1>   
+        <h1 style={{textAlign:'center',color:'purple'}}>Organization Performance</h1>   
         <Bar  data={data} className='bargraph'/>
     
     </div>
